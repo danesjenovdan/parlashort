@@ -1,17 +1,17 @@
 module.exports = {
   apps : [{
-    name: 'parlashort',
-    script: '/home/shorty/parlashort/run.js',
-    cwd: '/home/shorty/parlashort',
+    name: 'pp-short',
+    script: '/home/shorty/pp-short/run.js',
+    cwd: '/home/shorty/pp-short',
     env: {
       NODE_ENV: 'production',
-      MONGO_URL: 'mongodb://localhost/short',
-      SHORT_URL: 'https://parla.me',
+      MONGO_URL: 'mongodb://localhost/pp-short',
+      SHORT_URL: 'https://pp.djnd.si',
       PORT: 7006,
     },
-    output: '/home/shorty/log/parlashort.out.log',
-    error: '/home/shorty/log/parlashort.err.log',
-    log: '/home/shorty/log/parlashort.combined.log',
+    output: '/home/shorty/log/pp-short.out.log',
+    error: '/home/shorty/log/pp-short.err.log',
+    log: '/home/shorty/log/pp-short.combined.log',
     log_date_format: 'YYYY-MM-DDTHH:mm:ssZ',
   }],
 };
