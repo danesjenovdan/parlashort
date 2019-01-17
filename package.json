@@ -1,14 +1,19 @@
 {
   "name": "parlameter-shortner",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "URL shortener used by Parlameter",
   "main": "run.js",
-  "scripts": {
-    "start": "NODE_ENV=development supervisor run",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danesjenovdan/parlashort.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "danesjenovdan",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/danesjenovdan/parlashort/issues"
+  },
+  "homepage": "https://github.com/danesjenovdan/parlashort#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "cors": "^2.8.1",
