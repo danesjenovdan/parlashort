@@ -41,7 +41,7 @@ exports.start = (app) => {
 
           shortId,
           targetUrl,
-          shortUrl:config.HOSTNAME+'/'+shortId
+          shortUrl:config.SHORT_URL+'/'+shortId
 
         });
 
