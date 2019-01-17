@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
+const config = require('../config');
 
 exports.connect = ()=>{
 
   return new Promise((resolve, reject)=>{
 
-    mongoose.connect('mongodb://localhost/short');
+    mongoose.connect(config.MONGO_URL);
 
     mongoose.connection.on('error', (err)=>{
 

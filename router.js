@@ -4,7 +4,7 @@ const ShortURL  = require('./classes/ShortURL');
 
 exports.start = (app) => {
 
-  app.get('/shortner/generate', (req, res) => {
+  app.get('/shortener/generate', (req, res) => {
 
     const targetUrl = req.query.url;
 

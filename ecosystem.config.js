@@ -5,8 +5,9 @@ module.exports = {
     cwd: '/home/shorty/parlashort',
     env: {
       NODE_ENV: 'production',
-      MONGO_USERNAME: 'shortuser',
-      MONGO_PASSWORD: 'shortpass',
+      MONGO_URL: 'mongodb://localhost/short',
+      SHORT_URL: 'https://parla.me',
+      PORT: 7006,
     },
     output: '/home/shorty/log/parlashort.out.log',
     error: '/home/shorty/log/parlashort.err.log',

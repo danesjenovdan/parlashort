@@ -1,5 +1,5 @@
 {
-  "name": "parlameter-shortner",
+  "name": "parlameter-shortener",
   "version": "1.0.0",
   "description": "URL shortener used by Parlameter",
   "main": "run.js",

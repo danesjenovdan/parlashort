@@ -1,5 +1,6 @@
-if(process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'development') throw Error('Missing NODE_ENV');
-
-const config = process.env.NODE_ENV === 'production'?require('./config.prod'):require('./config.dev');
-
-module.exports = config;
+module.exports = {
+  NODE_ENV: process.env.NODE_ENV || 'development',
+  MONGO_URL: process.env.MONGO_URL || 'mongodb://localhost/short',
+  SHORT_URL: process.env.SHORT_URL || 'http://localhost:3044',
+  PORT: process.env.PORT || 3044,
+};
